@@ -48,7 +48,7 @@
 
 1. 克隆仓库
    ```
-   git clone https://github.com/your-username/yinyuehui.git
+   git clone https://github.com/Adlinistrator/RhythmRendezvous.git
    ```
 2. 进入项目目录
    ```
