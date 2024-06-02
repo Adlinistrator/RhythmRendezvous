@@ -52,7 +52,7 @@
    ```
 2. 进入项目目录
    ```
-   cd yinyuehui
+   cd RhythmRendezvous
    ```
 3. 安装依赖
    ```
