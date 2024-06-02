@@ -1,6 +1,22 @@
-* {
-    font-family: 'SourceHanSansCN', sans-serif; /* Specify Source Han Sans CN as the primary font */
-  }
+
+@font-face {
+    font-family: 'Source Han Sans';
+    src: url('../fonts/SourceHanSansCN-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: bold;
+}
+ 
+@font-face {
+    font-family: 'Source Han Sans';
+    src: url('../fonts/SourceHanSansCN-Normal.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Source Han Sans', serif;
+}
+
 /* 主要内容样式 */
 main {
     display: flex;
@@ -85,10 +101,11 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .new-case-tab-area3 .item {
-    width: 300px;
+    width:  300px;
     height: 300px; 
     margin: 20px;
     position: relative;
