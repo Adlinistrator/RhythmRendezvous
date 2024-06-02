@@ -1,0 +1,87 @@
+/* 帖子底部样式 */
+.post__footer {
+  background-color: #f9f9f9; /* 浅灰色背景 */
+  padding: 20px; /* 内边距 */
+  border-top: 1px solid #eaeaea; /* 上边框 */
+  margin-top: 20px; /* 与内容的间距 */
+}
+
+/* 标签样式 */
+.post__footer p {
+  margin-bottom: 10px; /* 底部外边距 */
+}
+
+.post__footer a {
+  color: #007bff; /* 链接颜色 */
+  text-decoration: none; /* 移除下划线 */
+  margin-right: 5px; /* 标签之间的间距 */
+}
+
+.post__footer a:hover {
+  text-decoration: underline; /* 鼠标悬浮时添加下划线 */
+}
+
+.post__comments {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.post__comments h2 {
+  margin-bottom: 15px;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.comment__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.comment__content {
+  flex: 1;
+}
+
+.comment__content p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.comment__meta {
+  font-size: 12px;
+  color: #999;
+}
+
+.comment-form {
+  margin-top: 20px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.comment-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}

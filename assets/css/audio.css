@@ -1,0 +1,36 @@
+  /* 音频播放器容器样式 */
+  .audio-container {
+    border: 1px solid #e1e1e1; /* 边框 */
+    border-radius: 8px; /* 边框圆角 */
+    background-color: #f9f9f9; /* 背景色 */
+    padding: 10px; /* 内边距 */
+    display: inline-block; /* 内联块级显示 */
+  }
+  
+  /* 音频播放器美化 */
+  #myAudio {
+    width: 100%; /* 宽度充满容器 */
+    margin-top: 10px; /* 上边距 */
+    background-color: #fff; /* 控件背景色 */
+    color: #333; /* 文本色 */
+    border: none; /* 移除默认边框 */
+    border-radius: 4px; /* 控件圆角 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+  }
+  
+  /* 音频控件美化 */
+  #myAudio::-webkit-media-controls-panel {
+    background-color: #fff; /* 控件面板背景色 */
+  }
+  
+  /* 当浏览器不支持audio标签时的样式 */
+  #myAudio:not(:-webkit-media-controls) {
+    display: none; /* 隐藏原生控件 */
+  }
+  
+  /* 提示信息样式 */
+  #myAudio + p {
+    color: #666; /* 文字颜色 */
+    font-size: 0.8em; /* 字体大小 */
+    text-align: center; /* 文本居中 */
+  }

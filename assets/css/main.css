@@ -1,0 +1,39 @@
+/* 主要内容样式 */
+main {
+    display: flex;
+    flex-wrap: wrap; /* 允许换行 */
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('../images/hero.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 70%;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+.hero__text {
+    padding: 100px;
+}
+.hero__text h1{
+    font-size: 80px;
+}
+.hero__text h2 {
+    font-size: 40px;
+}
+
+.hero__text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.hero__text .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

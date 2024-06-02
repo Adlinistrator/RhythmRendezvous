@@ -1,0 +1,54 @@
+/* 关于我们页面的样式 */
+.about {
+    max-width: 800px; /* 最大宽度 */
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+    padding: 20px; /* 内边距 */
+    background-color: #fff; /* 背景色 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 轻微的阴影效果 */
+  }
+  
+  .about__info p {
+    font-size: 16px; /* 字体大小 */
+    line-height: 1.6; /* 行高 */
+    color: #333; /* 字体颜色 */
+  }
+  
+  .about__info strong {
+    color: #007bff; /* 强调文本颜色 */
+  }
+  
+  .about h3 {
+    font-size: 24px; /* 标题字体大小 */
+    margin-bottom: 10px; /* 标题底部外边距 */
+    color: #333; /* 标题颜色 */
+  }
+  
+  .about ul {
+    list-style-type: none; /* 移除列表项默认样式 */
+    padding: 0; /* 移除内边距 */
+  }
+  
+  .about ul li {
+    padding: 8px 0; /* 列表项间距 */
+    border-bottom: 1px solid #eaeaea; /* 底部边框 */
+  }
+  
+  .about ul li:last-child {
+    border-bottom: none; /* 最后一个列表项不显示边框 */
+  }
+  
+  /* 创始人和团队成员的介绍样式 */
+  .about ul li strong {
+    display: block;
+    margin-bottom: 5px; /* 团队成员名称下方的外边距 */
+  }
+  
+  /* 呼吁加入的段落样式 */
+  .about__info p:last-child {
+    text-align: center; /* 文本居中对齐 */
+    margin-top: 20px; /* 段落顶部外边距 */
+  }

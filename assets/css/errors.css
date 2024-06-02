@@ -1,0 +1,45 @@
+ /* 404错误页面的样式 */
+ .error-404 {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.error-404 h2 {
+  margin-bottom: 20px;
+  color: #cc0000;
+  font-size: 36px;
+}
+
+.error-404 p {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+.error-404 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.error-404 ul li {
+  margin-bottom: 10px;
+}
+
+.error-404 a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.error-404 a:hover {
+  background-color: #0056b3;
+}

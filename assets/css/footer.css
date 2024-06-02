@@ -1,0 +1,15 @@
+/* 页脚样式 */
+footer {
+    background-color: #333; /* 背景颜色 */
+    color: #fff; /* 文字颜色 */
+    text-align: center; /* 文字居中对齐 */
+    padding: 20px 0; /* 垂直和水平内边距 */
+    font-size: 16px; /* 字体大小 */
+    position: relative; /* 定位属性 */
+    bottom: 0; /* 定位到页面底部 */
+    width: 100%; /* 宽度为100% */
+  }
+  
+  footer p {
+    margin: 0; /* 移除段落的外边距 */
+  }

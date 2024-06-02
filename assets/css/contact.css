@@ -1,0 +1,112 @@
+/* 联系页面的样式 */
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  /* 表单样式 */
+  .contact__form__group {
+    margin-bottom: 20px;
+  }
+  
+  .contact__form__group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .contact__form__group input,
+  .contact__form__group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact__form__group textarea {
+    resize: vertical;
+  }
+  
+  .contact button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 联系信息样式 */
+  .contact__info {
+    margin-top: 40px;
+  }
+  
+  .contact__info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .contact__info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact__info li {
+    margin-bottom: 10px;
+  }
+  
+  .contact__info__label {
+    font-weight: bold;
+  }
+  
+  .contact__info a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .contact__info i {
+    font-size: 18px;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .contact {
+      padding: 20px;
+    }
+  
+    .contact h2,
+    .contact__info h2 {
+      font-size: 20px;
+    }
+  
+    .contact__form__group input,
+    .contact__form__group textarea {
+      padding: 8px;
+    }
+  
+    .contact button[type="submit"] {
+      padding: 8px 16px;
+    }
+  }

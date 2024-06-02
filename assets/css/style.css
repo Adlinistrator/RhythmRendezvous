@@ -1,0 +1,654 @@
+/* 通用样式 */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 页眉样式 */
+header {
+    background-color:#f8f9fa;
+    padding: 20px;
+    }
+.header-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-actions form {
+    margin-right: 20px;
+  }
+  
+  .header-actions input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .header-actions button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* 主要内容样式 */
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('../images/hero.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.hero__text {
+    padding: 100px;
+}
+.hero__text h1{
+    font-size: 80px;
+}
+.hero__text h2 {
+    font-size: 40px;
+}
+
+.hero__text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.hero__text .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.post {
+        border: 1px solid #ddd; 
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+        border-radius: 5px; 
+        background-color: #fff; 
+}
+
+.post__thumbnail {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.post__thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+.post__content {
+    padding: 10px;
+}
+
+.post__content h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.post__content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.post__meta {
+    text-align: right;
+    font-style: italic;
+    color: #999;
+}
+
+/* 帖子底部样式 */
+.post__footer {
+    background-color: #f9f9f9; /* 浅灰色背景 */
+    padding: 20px; /* 内边距 */
+    border-top: 1px solid #eaeaea; /* 上边框 */
+    margin-top: 20px; /* 与内容的间距 */
+  }
+  
+  /* 标签样式 */
+  .post__footer p {
+    margin-bottom: 10px; /* 底部外边距 */
+  }
+  
+  .post__footer a {
+    color: #007bff; /* 链接颜色 */
+    text-decoration: none; /* 移除下划线 */
+    margin-right: 5px; /* 标签之间的间距 */
+  }
+  
+  .post__footer a:hover {
+    text-decoration: underline; /* 鼠标悬浮时添加下划线 */
+  }
+
+.post__comments {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .post__comments h2 {
+    margin-bottom: 15px;
+  }
+  
+  .comment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .comment__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .comment__content {
+    flex: 1;
+  }
+  
+  .comment__content p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .comment__meta {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .comment-form {
+    margin-top: 20px;
+  }
+  
+  .comment-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .comment-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+ /* 头部容器 */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  /* Logo样式 */
+  .logo img {
+    height: 50px; /* 调整logo高度 */
+  }
+  
+  /* 导航菜单样式 */
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-left: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .nav-list a:hover {
+    color: #ddd;
+  }
+  
+  /* 搜索表单样式 */
+  .header-actions form {
+    display: flex;
+  }
+  
+  .header-actions input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .header-actions button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .header-actions button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+.navbar {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+.navbar__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar__item {
+    margin-right: 20px;
+}
+
+.navbar__item a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar__item a:hover {
+    background-color: #e0e0e0;
+}
+
+
+/* 边栏样式 */
+.sidebar {
+    margin-top: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.social-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media a {
+    color: #999;
+    font-size: 20px;
+}
+
+/* 页脚样式 */
+footer {
+  background-color: #333; /* 背景颜色 */
+  color: #fff; /* 文字颜色 */
+  text-align: center; /* 文字居中对齐 */
+  padding: 20px 0; /* 垂直和水平内边距 */
+  font-size: 16px; /* 字体大小 */
+  position: relative; /* 定位属性 */
+  bottom: 0; /* 定位到页面底部 */
+  width: 100%; /* 宽度为100% */
+}
+
+footer p {
+  margin: 0; /* 移除段落的外边距 */
+}
+
+/* 关于我们页面的样式 */
+.about {
+    max-width: 800px; /* 最大宽度 */
+    margin: 0 auto; /* 水平居中 */
+    padding: 20px; /* 内边距 */
+    background-color: #fff; /* 背景色 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 轻微的阴影效果 */
+  }
+  
+  .about__info p {
+    font-size: 16px; /* 字体大小 */
+    line-height: 1.6; /* 行高 */
+    color: #333; /* 字体颜色 */
+  }
+  
+  .about__info strong {
+    color: #007bff; /* 强调文本颜色 */
+  }
+  
+  .about h3 {
+    font-size: 24px; /* 标题字体大小 */
+    margin-bottom: 10px; /* 标题底部外边距 */
+    color: #333; /* 标题颜色 */
+  }
+  
+  .about ul {
+    list-style-type: none; /* 移除列表项默认样式 */
+    padding: 0; /* 移除内边距 */
+  }
+  
+  .about ul li {
+    padding: 8px 0; /* 列表项间距 */
+    border-bottom: 1px solid #eaeaea; /* 底部边框 */
+  }
+  
+  .about ul li:last-child {
+    border-bottom: none; /* 最后一个列表项不显示边框 */
+  }
+  
+  /* 创始人和团队成员的介绍样式 */
+  .about ul li strong {
+    display: block;
+    margin-bottom: 5px; /* 团队成员名称下方的外边距 */
+  }
+  
+  /* 呼吁加入的段落样式 */
+  .about__info p:last-child {
+    text-align: center; /* 文本居中对齐 */
+    margin-top: 20px; /* 段落顶部外边距 */
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .about {
+      padding: 10px; /* 在小屏幕上减小内边距 */
+    }
+  
+    .about__info p {
+      font-size: 14px; /* 在小屏幕上减小字体大小 */
+    }
+  
+    .about h3 {
+      font-size: 20px; /* 在小屏幕上减小标题字体大小 */
+    }
+  }
+
+  /* 404错误页面的样式 */
+.error-404 {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .error-404 h2 {
+    margin-bottom: 20px;
+    color: #cc0000;
+    font-size: 36px;
+  }
+  
+  .error-404 p {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .error-404 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .error-404 ul li {
+    margin-bottom: 10px;
+  }
+  
+  .error-404 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .error-404 a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .error-404 {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .error-404 h2 {
+      font-size: 24px;
+    }
+  
+    .error-404 p {
+      font-size: 14px;
+    }
+  
+    .error-404 a {
+      padding: 8px 16px;
+    }
+  }
+
+  /* 联系页面的样式 */
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  /* 表单样式 */
+  .contact__form__group {
+    margin-bottom: 20px;
+  }
+  
+  .contact__form__group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .contact__form__group input,
+  .contact__form__group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact__form__group textarea {
+    resize: vertical;
+  }
+  
+  .contact button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 联系信息样式 */
+  .contact__info {
+    margin-top: 40px;
+  }
+  
+  .contact__info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .contact__info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact__info li {
+    margin-bottom: 10px;
+  }
+  
+  .contact__info__label {
+    font-weight: bold;
+  }
+  
+  .contact__info a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .contact__info i {
+    font-size: 18px;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .contact {
+      padding: 20px;
+    }
+  
+    .contact h2,
+    .contact__info h2 {
+      font-size: 20px;
+    }
+  
+    .contact__form__group input,
+    .contact__form__group textarea {
+      padding: 8px;
+    }
+  
+    .contact button[type="submit"] {
+      padding: 8px 16px;
+    }
+  }
+
+  /* 音频播放器容器样式 */
+.audio-container {
+  border: 1px solid #e1e1e1; /* 边框 */
+  border-radius: 8px; /* 边框圆角 */
+  background-color: #f9f9f9; /* 背景色 */
+  padding: 10px; /* 内边距 */
+  display: inline-block; /* 内联块级显示 */
+}
+
+/* 音频播放器美化 */
+#myAudio {
+  width: 100%; /* 宽度充满容器 */
+  margin-top: 10px; /* 上边距 */
+  background-color: #fff; /* 控件背景色 */
+  color: #333; /* 文本色 */
+  border: none; /* 移除默认边框 */
+  border-radius: 4px; /* 控件圆角 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+}
+
+/* 音频控件美化 */
+#myAudio::-webkit-media-controls-panel {
+  background-color: #fff; /* 控件面板背景色 */
+}
+
+/* 当浏览器不支持audio标签时的样式 */
+#myAudio:not(:-webkit-media-controls) {
+  display: none; /* 隐藏原生控件 */
+}
+
+/* 提示信息样式 */
+#myAudio + p {
+  color: #666; /* 文字颜色 */
+  font-size: 0.8em; /* 字体大小 */
+  text-align: center; /* 文本居中 */
+}

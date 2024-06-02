@@ -1,0 +1,31 @@
+.policy-consent {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.policy-consent h1,
+.policy-consent h2,
+.policy-consent h3 {
+    color: #333;
+}
+
+.policy-consent p {
+    color: #666;
+}
+
+.policy-consent ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #666;
+}
+
+.policy-consent li {
+    margin-bottom: 5px;
+}
+
+.policy-consent a {
+    color: #007bff;
+    text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+/* 响应式样式 */
+@media (max-width: 768px) {
+    .main {
+      grid-template-columns: 1fr; /* 单列布局 */
+    }
+  
+    .sidebar {
+      display: none; /* 隐藏边栏 */
+    }
+  }
+  

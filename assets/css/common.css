@@ -1,0 +1,31 @@
+/* 通用样式 */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .about {
+      padding: 10px; /* 在小屏幕上减小内边距 */
+    }
+  
+    .about__info p {
+      font-size: 14px; /* 在小屏幕上减小字体大小 */
+    }
+  
+    .about h3 {
+      font-size: 20px; /* 在小屏幕上减小标题字体大小 */
+    }
+  }

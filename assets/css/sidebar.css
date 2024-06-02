@@ -1,0 +1,41 @@
+.sidebar {
+    width: 20%; /* 设置sidebar的宽度 */
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 1px solid #ddd;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.content-wrapper {
+    display: flex;
+    margin: 20px;
+}
+
+.widget {
+    margin-bottom: 20px;
+}
+
+.widget h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget li a {
+    text-decoration: none;
+    color: #555;
+    display: block;
+    padding: 5px 0;
+}
+
+.widget li a:hover {
+    color: #007bff;
+}

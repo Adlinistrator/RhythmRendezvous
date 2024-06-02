@@ -1,0 +1,31 @@
+/* 导航栏样式 */
+.navbar {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+  }
+  
+  .navbar__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar__item {
+    margin-right: 20px;
+  }
+  
+  .navbar__item a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar__item a:hover {
+    background-color: #e0e0e0;
+  }
+  /* Logo样式 */
+.logo img {
+  height: 50px; /* 调整logo高度 */
+}
