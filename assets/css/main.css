@@ -1,3 +1,6 @@
+* {
+    font-family: 'SourceHanSansCN', sans-serif; /* Specify Source Han Sans CN as the primary font */
+  }
 /* 主要内容样式 */
 main {
     display: flex;
@@ -36,4 +39,121 @@ main {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+}
+
+.index-new-case {
+    display: flex;
+    margin: 0 5%;
+    padding: 20px;
+}
+
+.content-wrap {
+    width: 100%;
+}
+
+.content-wrap .main-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.new-case-tab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.new-case-tab-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px 18px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+.new-case-tab-item.active-tab-item {
+    background-color: #20b09f;
+    color: #fff;
+}
+
+.new-case-tab-area3 {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-case-tab-area3 .item {
+    width: 300px;
+    height: 300px; 
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab-image {
+    width: 300px;
+    height: 300px; 
+    overflow: hidden;
+}
+
+.tab-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.item:hover .tab-image img {
+    transform: scale(1.1);
+}
+
+.item-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    transform: translateY(100%);
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.item:hover .item-block {
+    transform: translateY(0);
+}
+
+.item-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.item-artist {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.play-btn {
+    display: block;
+    margin: auto auto;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #20b09f;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.play-btn:hover {
+    background-color: #16786b;
 }
